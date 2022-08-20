@@ -228,24 +228,7 @@
             <i class="ri-quill-pen-fill mr-2"></i>NENO
         </button>
 
-        <button
-            on:click={() => {
-                $currentPage = "daily";
-            }}
-            class="{'     w-full    flex  items-center justify-start  rounded-r  p-4 focus:outline-none hover:text-white hover:bg-green-400 ' +
-                ($currentPage === 'daily' ? 'bg-green-500 text-white' : '')}        "
-        >
-            <i class="ri-calendar-event-fill mr-2"></i>每日回顾
-        </button>
-        <button
-            on:click={() => {
-                $currentPage = "luck";
-            }}
-            class="{'     w-full    flex  items-center justify-start  rounded-r  p-4 focus:outline-none hover:text-white hover:bg-green-400 ' +
-                ($currentPage === 'luck' ? 'bg-green-500 text-white' : '')}        "
-        >
-            <i class="ri-bubble-chart-fill mr-2"></i>随机漫步
-        </button>
+
     </div>
 
     {#if pinTags.length !== 0}
