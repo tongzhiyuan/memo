@@ -203,7 +203,7 @@
     >
         <div class="font-bold text-lg">
             <div class="text-xl">{$countStore.nenoCount}</div>
-            NENO
+            MEMO
         </div>
         <div class="font-bold text-lg">
             <div class="text-xl">{$countStore.tagCount}</div>
